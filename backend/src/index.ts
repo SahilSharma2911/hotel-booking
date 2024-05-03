@@ -21,7 +21,9 @@ app.use(
     origin: process.env.FRONTEND_URL,
     credentials: true,
   })
+  
 );
+
 
 app.use(express.static(path.join(__dirname,"../../frontend/dist")))
 
