@@ -46,7 +46,7 @@ const Register = () => {
           First Name <input type="text" className="border rounded w-full py-1 px-2 font-normal" {...register("firstName", { required: "This feild is required" })} />
           {errors.firstName && (
             <span className="text-red-500">{errors.firstName.message}</span>
-          )}
+          )} 
         </label>
         <label className="text-gray-700 text-sm font-bold flex-1">
           Last Name <input type="text" className="border rounded w-full py-1 px-2 font-normal" {...register("lastName", { required: "This feild is required" })} />
