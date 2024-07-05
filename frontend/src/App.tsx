@@ -15,7 +15,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Layout><p>home page</p></Layout>} />
-        <Route path="/search" element={<Layout><p>search page</p></Layout>} />
         <Route path="/register" element={<Layout><Register /></Layout>} />
         <Route path="/sign-in" element={<Layout>< SignIn /></Layout>} />
         <Route path="/search" element={<Layout>< Search/></Layout>} />
