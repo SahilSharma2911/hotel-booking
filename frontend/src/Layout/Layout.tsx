@@ -15,7 +15,7 @@ const Layout = ({ children }: Props) => {
       <div className="px-[1.5rem] md:px-[4rem] lg:px-[10rem] py-6 md:py-10 ">
         <SearchBar />
       </div>
-      <div className="px-[1.5rem] md:px-[4rem] lg:px-[10rem] py-6 md:py-10 flex-1">
+      <div className="px-[1.5rem] md:px-[4rem] lg:px-[10rem] pb-10 md:pb-16 flex-1">
         {children}
       </div>
       <Footer />
